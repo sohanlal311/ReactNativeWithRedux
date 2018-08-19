@@ -43,7 +43,7 @@ class LoginForm extends Component {
 
   render() {
     return (
-      <View style={{ paddingTop: 15 }}>
+      <View>
         <Card>
           <CardSection>
             <Input
