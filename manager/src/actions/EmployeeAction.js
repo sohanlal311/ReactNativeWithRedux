@@ -17,7 +17,7 @@ export const employeeCreate = ({ name, phone, shift }) => {
     .push({ name, phone, shift })
     .then(() => {
       dispatch({ type: EMPLOYEE_CREATE });
-      Actions.employeeList();
+      Actions.employeeList({ type: 'reset' });
     });
   };
 };
